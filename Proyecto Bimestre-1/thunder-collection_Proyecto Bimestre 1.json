@@ -1,0 +1,375 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Proyecto Bimestre 1",
+    "dateExported": "2024-02-23T04:11:21.354Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "70ba9809-02b2-475b-bb44-450a0527f6a2",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-02-22T09:30:50.667Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "ba8a54e5-fc88-4050-ac41-3e9b84826ac6",
+            "name": "register",
+            "containerId": "70ba9809-02b2-475b-bb44-450a0527f6a2",
+            "created": "2024-02-22T09:31:03.058Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "4e0a836f-02de-454e-a411-fa15b295b098",
+            "name": "login",
+            "containerId": "70ba9809-02b2-475b-bb44-450a0527f6a2",
+            "created": "2024-03-01T15:37:07.757Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "90c7240e-2588-4225-83f4-5e5723958075",
+            "name": "Categoria",
+            "containerId": "",
+            "created": "2024-02-23T00:52:55.458Z",
+            "sortNum": 40000
+        },
+        {
+            "_id": "8f164dab-a70c-4544-a9a5-7d07aab92c03",
+            "name": "Agregar",
+            "containerId": "90c7240e-2588-4225-83f4-5e5723958075",
+            "created": "2024-02-23T00:53:04.430Z",
+            "sortNum": 50000
+        },
+        {
+            "_id": "e33c9deb-3610-421b-858b-5b1ece38bba2",
+            "name": "Actualizar",
+            "containerId": "90c7240e-2588-4225-83f4-5e5723958075",
+            "created": "2024-02-23T01:15:07.358Z",
+            "sortNum": 60000
+        },
+        {
+            "_id": "b47b1206-84d2-4335-b160-ec7e6159aa21",
+            "name": "Eliminar",
+            "containerId": "90c7240e-2588-4225-83f4-5e5723958075",
+            "created": "2024-02-23T01:23:41.158Z",
+            "sortNum": 70000
+        },
+        {
+            "_id": "39248336-980d-4325-ba80-7300b49c4a90",
+            "name": "Productos",
+            "containerId": "",
+            "created": "2024-02-23T02:57:06.026Z",
+            "sortNum": 80000
+        },
+        {
+            "_id": "9c581b4a-485d-428e-a8c6-041aba6573d6",
+            "name": "AgregarProductos",
+            "containerId": "39248336-980d-4325-ba80-7300b49c4a90",
+            "created": "2024-02-23T02:57:15.123Z",
+            "sortNum": 90000
+        },
+        {
+            "_id": "dcadbb90-fac2-4f84-bc08-9509389d1480",
+            "name": "Listar Productos",
+            "containerId": "39248336-980d-4325-ba80-7300b49c4a90",
+            "created": "2024-02-23T03:21:37.575Z",
+            "sortNum": 100000
+        },
+        {
+            "_id": "31159092-3d77-4cbf-a58c-0c943f024d5d",
+            "name": "ListarProductos",
+            "containerId": "dcadbb90-fac2-4f84-bc08-9509389d1480",
+            "created": "2024-02-23T03:21:58.489Z",
+            "sortNum": 110000
+        },
+        {
+            "_id": "581b0225-d388-4b01-a440-cb99406fdb1f",
+            "name": "Update Usuario",
+            "containerId": "70ba9809-02b2-475b-bb44-450a0527f6a2",
+            "created": "2024-02-23T03:36:34.726Z",
+            "sortNum": 120000
+        },
+        {
+            "_id": "6ae6ee45-cfdf-44c1-80c6-3a8a569319b2",
+            "name": "Actualizar Usuario",
+            "containerId": "581b0225-d388-4b01-a440-cb99406fdb1f",
+            "created": "2024-02-23T03:36:54.848Z",
+            "sortNum": 130000
+        },
+        {
+            "_id": "a57265e5-b3a5-4cd9-940b-24d0fe2f0fb8",
+            "name": "Eiminar Usuario",
+            "containerId": "70ba9809-02b2-475b-bb44-450a0527f6a2",
+            "created": "2024-02-23T03:51:24.726Z",
+            "sortNum": 140000
+        },
+        {
+            "_id": "19d02777-36c0-4b45-bb8c-368b084f4f00",
+            "name": "Delete Usuarrio",
+            "containerId": "a57265e5-b3a5-4cd9-940b-24d0fe2f0fb8",
+            "created": "2024-02-23T03:51:36.474Z",
+            "sortNum": 150000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "a6e5d039-8189-4484-9d13-cab00c50d6e3",
+            "colId": "30575f04-9cc7-490d-9b3a-3fcd83f76569",
+            "containerId": "ba8a54e5-fc88-4050-ac41-3e9b84826ac6",
+            "name": "register",
+            "url": "localhost:3001/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-22T09:32:33.569Z",
+            "modified": "2024-02-23T00:31:13.730Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Alex"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Pacheco"
+                    },
+                    {
+                        "name": "email",
+                        "value": "alex@gmail.com"
+                    },
+                    {
+                        "name": "username",
+                        "value": "Alex1"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345677"
+                    },
+                    {
+                        "name": "adress",
+                        "value": "zona 7"
+                    },
+                    {
+                        "name": "role",
+                        "value": "CLIENT"
+                    }
+                ]
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "5e84468b-80aa-484d-bb36-edc42b79c027",
+            "colId": "30575f04-9cc7-490d-9b3a-3fcd83f76569",
+            "containerId": "4e0a836f-02de-454e-a411-fa15b295b098",
+            "name": "login",
+            "url": "localhost:3001/login",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-03-01T15:37:22.563Z",
+            "modified": "2024-02-23T00:36:10.969Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "Alex1"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "2e00003f-ce09-47c4-8ef8-a8b32bd4d5ce",
+            "colId": "30575f04-9cc7-490d-9b3a-3fcd83f76569",
+            "containerId": "8f164dab-a70c-4544-a9a5-7d07aab92c03",
+            "name": "Agregar",
+            "url": "localhost:3001/agregarCategorias",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-02-23T00:53:13.566Z",
+            "modified": "2024-02-23T00:56:03.054Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ3ZTc1MWM2ZWRlYjZlY2MyYWU5YzIiLCJ1c2VybmFtZSI6ImFsZXgxIiwibmFtZSI6IkFsZXgiLCJyb2xlIjoiQ0xJRU5UIiwiaWF0IjoxNzA4NjQ5NzQxLCJleHAiOjE3MDg2NjA1NDF9.-hFdPX31d3gFqCBdSOCFwOG0d6qvwzB7FD461a9Bukc"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "categoria",
+                        "value": "Repuestos Motores"
+                    },
+                    {
+                        "name": "descripcion",
+                        "value": "Los mejores repuetos de pistones tejas y valvulas para tu motor"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "9a2f76c7-cb99-41b6-8426-94091468bb96",
+            "colId": "30575f04-9cc7-490d-9b3a-3fcd83f76569",
+            "containerId": "e33c9deb-3610-421b-858b-5b1ece38bba2",
+            "name": "Update Categoria",
+            "url": "localhost:3001/actualizarCategoria/65d7eff7883b8fa682870100",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-02-23T01:15:15.480Z",
+            "modified": "2024-02-23T01:19:10.647Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "api.put('/actualizarCategoria/:id',[validateJwt],actulizarCategoria)"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "descripcion",
+                        "value": "Repuestos"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "dbd2ad1a-8e3a-4c75-9ec0-39e3374fb4df",
+            "colId": "30575f04-9cc7-490d-9b3a-3fcd83f76569",
+            "containerId": "b47b1206-84d2-4335-b160-ec7e6159aa21",
+            "name": "Delete",
+            "url": "localhost:3001/eliminarCategoria/65d7f5a5d9e665469454e53a",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-02-23T01:23:50.258Z",
+            "modified": "2024-02-23T01:32:39.905Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a30cdd05-61bf-419a-8f72-24a6d40ac357",
+            "colId": "30575f04-9cc7-490d-9b3a-3fcd83f76569",
+            "containerId": "9c581b4a-485d-428e-a8c6-041aba6573d6",
+            "name": "Agregar",
+            "url": "localhost:3001/agregarProducto",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-02-23T02:57:24.267Z",
+            "modified": "2024-02-23T03:06:26.079Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombreProducto",
+                        "value": "Valvulas admision Honda k24"
+                    },
+                    {
+                        "name": "descripcion",
+                        "value": "Valvulas nuevas de admision para tu Honda"
+                    },
+                    {
+                        "name": "precio",
+                        "value": "100.00"
+                    },
+                    {
+                        "name": "stock",
+                        "value": "22"
+                    },
+                    {
+                        "name": "categoria",
+                        "value": "65d80ba453d9e007774ec163"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "95ccdcf1-af2b-468f-b88a-8ea469674a8d",
+            "colId": "30575f04-9cc7-490d-9b3a-3fcd83f76569",
+            "containerId": "31159092-3d77-4cbf-a58c-0c943f024d5d",
+            "name": "Listar",
+            "url": "localhost:3001/listarProducto",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-02-23T03:22:06.488Z",
+            "modified": "2024-02-23T03:26:45.082Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ3ZTc1MWM2ZWRlYjZlY2MyYWU5YzIiLCJ1c2VybmFtZSI6ImFsZXgxIiwibmFtZSI6IkFsZXgiLCJyb2xlIjoiQ0xJRU5UIiwiaWF0IjoxNzA4NjU3NTU3LCJleHAiOjE3MDg2NjgzNTd9.zUZKFXao1DcJmy72AvP73jNcy9vBHx5jNt1n_GFm_zk"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b4eb2998-0c7f-4061-8ca0-9396ca5fe221",
+            "colId": "30575f04-9cc7-490d-9b3a-3fcd83f76569",
+            "containerId": "6ae6ee45-cfdf-44c1-80c6-3a8a569319b2",
+            "name": "Update User",
+            "url": "localhost:3001/update/65d7e751c6edeb6ecc2ae9c2",
+            "method": "PUT",
+            "sortNum": 110000,
+            "created": "2024-02-23T03:37:05.792Z",
+            "modified": "2024-02-23T03:40:54.246Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Alexander"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "517a1e68-362b-4dd8-9432-0a25c5ea7b5f",
+            "colId": "30575f04-9cc7-490d-9b3a-3fcd83f76569",
+            "containerId": "a57265e5-b3a5-4cd9-940b-24d0fe2f0fb8",
+            "name": "Delete",
+            "url": "localhost:3001/eliminarUser/65d7e751c6edeb6ecc2ae9c2",
+            "method": "DELETE",
+            "sortNum": 120000,
+            "created": "2024-02-23T03:51:45.131Z",
+            "modified": "2024-02-23T03:55:03.390Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "65d7e751c6edeb6ecc2ae9c2"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
